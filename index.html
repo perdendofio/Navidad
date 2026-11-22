@@ -338,12 +338,12 @@
        * Cambia estos datos aquí para adaptar la página a otra empresa sin tocar el HTML ni el resto del JS.
        */
       const BRAND = Object.freeze({
-        name: 'PerdendoFio',
+        name: 'Perdendo Fío',
         displayName: 'Perdendo Fío',
         location: 'encuéntranos en Ponteareas',
         promoMessage: 'Ven a visitarnos a Perdendo Fío en Ponteareas\nCostura y creaciones a medida',
         promoBadgePrefix: '✦ Crea la tuya en:',
-        experienceUrl: 'https://perdendofio.com/navidad',
+        experienceUrl: 'https://navidad.perdendofio.com/',
         website: 'https://perdendofio.com/',
         locationUrl: 'https://maps.app.goo.gl/NesatcZ4R2Z7dwxQ8',
         logoFile: 'perdendofio.png',
@@ -389,7 +389,7 @@
         shareFailedNote: 'No se pudo compartir la imagen. Prueba a descargarla.',
         shareUnavailableNote: 'No se puede compartir la imagen desde este navegador. Puedes descargarla manualmente.',
         shareOpenFailedNote: 'No se pudo abrir el menú para compartir la imagen.',
-        socialOpenedNote: 'Se abre la red social con el texto preparado. No se adjunta la imagen.',
+        socialOpenedNote: '',
         instagramCopiedNote: 'Texto copiado. En Instagram, pégalo en tu historia, publicación o mensaje.',
         instagramCopiedToast: 'Texto copiado para Instagram.',
         readyToast: '¡Qué bonita queda! Tu imagen ya está lista.',
@@ -402,7 +402,7 @@
         weaveErrorToast: 'Ha ocurrido un problema al tejer la foto. Prueba con una imagen más pequeña.',
         exportErrorToast: 'No se pudo exportar el PNG. Abre la página desde un servidor HTTP/HTTPS.',
         buildShareMessage: experienceUrl =>
-          `He tejido mi foto en lana con ${BRAND.name}, en ${BRAND.location}. ¡Crea la tuya esta Navidad!${experienceUrl ? ' ' + experienceUrl : ''}`
+          `He tejido mi foto en lana con ${BRAND.name}, ${BRAND.location}. ¡Crea la tuya gratis esta Navidad!${experienceUrl ? ' ' + experienceUrl : ''}`
       });
 
       const SETTINGS = Object.freeze({
